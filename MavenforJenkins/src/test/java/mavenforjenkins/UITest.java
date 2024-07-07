@@ -17,6 +17,7 @@ public class UITest
 		driver.manage().window().maximize();
 		driver.get("https://www.orangehrm.com/");
 		Assert.assertTrue(driver.getTitle().contains("Orange"),"Title does not match");
+		System.out.println("change for git");
 	}
 
 }
